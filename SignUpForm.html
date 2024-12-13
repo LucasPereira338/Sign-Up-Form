@@ -5,8 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="SignUpForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- 
+    Put an vertical image on the left that covers 30% of the page
+        1.Link the image
+        2.Make the image cover 30% of the page
+        3.Place a footer crediting the image's source
+    Put an opaque image that serves as an logo above the middle of the image
+        1.Link the image
+        2.Size the image adequately
+        3.Give the image an opacity in between 40-50%
+        4.Pick an attractive font for the logo
+        5.Write the name of the company or product on the logo
+    Create the form that covers 60% of the remaining space
+        1.Write an text describing the purpose of the form
+        2.Put an slogan below the text
+        3.Put an enthusiastic encouragement on the form
+        4.Create an form that contains two columns
+        5.Create an input asking for First Name
+        6.Create an input asking for Last Name
+        7.Create an input asking for Email
+        8.Create an input asking for Phone Number
+        9.Create an input asking for Password
+        10.Create an input asking for Confirm Password
+        11.Create an "Create Account" button
+        12.Create an text with an link that offers the option to Log in with an existing account
+        13.Place the First Name, Email and Password on the left
+        14.Place the Email, Phone Number and Confirm Password on the right
+        15.Create an small footer area of a different color below the form but before the button
+        16.Make all input forms mandatory
+        17.Make the password inputs have an red border when invalid
+        18.Give an selected element a blue border and a subtle box-shadow
+        
+    -->
+    
+    <img class="sideHeader" src="plant.jpg" alt="a plant with green leaves">
+    <footer class="imageFooter">Photo by Halie West on Unsplash</footer>
+    <div class="logoBackground">
+        <img class="logoImage"src="odin-lined.png" alt="The Odin's Project logo">
+        <p class="logoTitle">Odin</p>
+    </div>
+
+    <h3 class="descForm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos unde ullam voluptas, modi culpa pariatur neque esse sunt vero blanditiis dicta eligendi totam quis deserunt minima error aperiam id ea?</h3>
+    <h3 class="businessSlogan">You know you want to!</h3>
+    <form action="/Sing-Up-Form/" method="post" class="formInfo">
+        <fieldset>
+           <legend>Let's do this!</legend>
+          <div class="fullDiv">
+           <div class="firstColumnDiv"> 
+            <label for="firstName">First Name</label>
+            <input type="name" id="firstName" name="firstName" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+           </div> 
+          <div class="secondColumnDiv"> 
+           <label for="lastName">Last Name</label>
+            <input type="name" id="lastName" name="lastName" required>
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+          </div>  
+        </div> 
+            
+        </fieldset>
+
+          
+
+    </form>
+    <div class="accountButtons">
+        <button class="createAccount"> Create Account</button>
+        <p class="existingUserLogin">Already have an account? <a href="www.google.com">Click here to login!</a></p>  
+    </div>
+     
+   
     
 </body>
 </html>

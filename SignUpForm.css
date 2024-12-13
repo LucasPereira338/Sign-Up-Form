@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sideHeader{
+    display: block;
+    position: absolute;
+    height: 100vh;
+    width: 35vw;
+}
+
+.imageFooter{
+    position: relative;
+    top: 610px;
+    left: 135px;
+    color: white;
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+    font-size: 0.7em;
+    
+}
+
+.logoBackground{
+    display: flex;
+    position: absolute;
+    background-color: hsla(0, 0%, 3%, 0.502);
+    width: 35vw;
+    height: 25vh;
+    margin-top: 75px;
+    
+    
+}
+
+.logoImage{
+    margin: 0;
+    padding: 0;
+    margin-left: 125px;
+    width: 22vh;
+    height: 25vh;
+    
+}
+
+.logoTitle{
+    position: absolute;
+    color: ghostwhite;
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+    margin-left: 245px;
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+    font-size: 6.5em;
+}
+
+.descForm{
+    margin-top: 60px;
+    margin-left: 500px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.businessSlogan{
+    width: 50%;
+    margin-left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    
+}
+
+
+.formInfo{
+    
+    margin-left: 475px;
+    display: flex;
+    
+}
+
+fieldset{
+    height: 30vh;
+    width: 65vw;
+    
+}
+
+.fullDiv{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.firstColumnDiv{
+    display: flex;
+    
+    flex: 1;
+    flex-direction: column;
+}
+.secondColumnDiv{
+    display: flex;
+    
+    flex: 1;
+    flex-direction: column;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 1rem;
+}
+
+.accountButtons{
+    margin-left: 500px;
+}
+
+
+input{
+    width: 300px;
+    height: 25px;
+}
+
+input[type="password"]:invalid{
+    border: 1px solid red;
+}
+
+input:active{
+    border: 1px solid lightblue;
+}
