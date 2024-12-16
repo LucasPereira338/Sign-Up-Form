@@ -1,7 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(255, 255, 255, 0.699);
+}
 
+@font-face {
+    font-family: "Norse";
+    src: url(Norse-Bold.otf);
 }
 
 .sideHeader{
@@ -51,9 +56,9 @@ body{
     color: ghostwhite;
     margin: 0;
     padding: 0;
-    margin-top: 4px;
-    margin-left: 245px;
-    font-family: "Agu Display", serif;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-family: "Norse", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -98,7 +103,9 @@ legend{
 fieldset{
     height: 30vh;
     width: 65vw;
-    
+    padding-bottom: 25px;
+    padding-left: 24px;
+    background-color: white;
 }
 
 .fullDiv{
@@ -110,13 +117,11 @@ fieldset{
 
 .firstColumnDiv{
     display: flex;
-    
     flex: 1;
     flex-direction: column;
 }
 .secondColumnDiv{
     display: flex;
-    
     flex: 1;
     flex-direction: column;
 }
@@ -124,11 +129,23 @@ fieldset{
 label{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-style: bold;
     font-size: 1rem;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.createAccount{
+    border-radius: 15px;
+    background-color: rgb(15, 163, 114);
+    width: 300px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color:rgb(235, 213, 184);
 }
 
 .accountButtons{
+    margin-top: 5px;
     margin-left: 500px;
 }
 
